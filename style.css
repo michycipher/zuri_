@@ -1,0 +1,183 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 800px;
+    background-image: url('https://zuri.team/img/hero-bg.svg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.logo-div {
+    margin: auto;
+    display: flex;
+    padding-top: 69px;
+    margin-bottom: 69px;
+}
+
+.logo-div img {
+    margin: auto;
+}
+
+.header {
+    padding: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header h2 {
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    font-weight: 800;
+    color: #514949;
+    margin-bottom: 36px;
+}
+
+
+.header p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #514949;
+    opacity: 0.9;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #e7332b;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/* HEADER BUTTONS */
+.btn-div {
+    margin-top: 6rem;
+    /* display: flex;
+    align-content: center;
+    justify-content: space-around; */
+}
+
+.btn-1 {
+    background-color: #E7332B;
+    color: #fff;
+    margin-right: 1.5rem;
+}
+
+.btn-1:hover {
+    background-color: #fff;
+    color: #E7332B;
+}
+
+.btn-br {
+    display: none;
+}
+
+.btn-2 {
+    background-color: #fff;
+    color: #E7332B;
+}
+
+.btn-2:hover {
+    background-color: #e7332b;
+    color: #fff;
+}
+
+.header-btn {
+    padding: 11px 28px;
+    border: 1px solid #E7332B;
+    cursor: pointer;
+}
+/* END OF HEADER SECTION */
+
+.programs {
+   overflow: hidden;
+    background-color: #fff;
+}
+
+.container-fluid {
+    /* margin: 0 auto; */
+    /* max-width: 1440px; */
+    text-align: center;
+}
+
+h3.heading {
+    font-size: 14px;
+    line-height: 24px;
+    color: #E7332B;
+    margin-top: 141px;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.slogan {
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #514949;
+    margin-top: 8px;
+    margin-bottom: 64px;
+  }
+
+  .program-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .card-bg {
+    width: 90%;
+    display: none;
+  }
+
+  .rows {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    }
+
+  .program-card {
+    width: 30%;
+    text-align: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width: 768px) {
+    br {
+        display: block;
+    }
+
+    .btn-1 {
+        margin-bottom: 25px;
+        margin-right: 0;
+    }
+}
